@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+html {
+  user-select: none;
+  line-height: 22px;
+  background-color: rgb(21, 21, 21);
+  font-family: "Noto Serif", serif;
+}
+
+
+::-webkit-scrollbar-track {
+  display: none;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 6px inset;
+  background-color: transparent;
+  width: 0px !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar {
+  display: none;
+  background-color: transparent;
+  width: 0px !important;
+}
+
+
+
